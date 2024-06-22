@@ -1,0 +1,1265 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.MuiAppBar-positionStatic {
+    background-color: #110E0E !important;
+    position: absolute !important;
+    width: 730px !important;
+    justify-content: center !important;
+    display: flex !important;
+    left: 255px !important;
+    border-radius: 50px !important;
+    top: 20px !important;
+    opacity: 60% !important;
+}
+
+.faster {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 87px;
+    /* identical to box height, or 124% */
+
+    letter-spacing: -0.03em;
+
+    background: linear-gradient(131.38deg, #A0B1FF 22.51%, #2E4AF3 71.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    transform: rotate(-4.03deg);
+}
+
+.using-ai {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 44px;
+    /* identical to box height, or 67% */
+
+    letter-spacing: -0.03em;
+
+    background: linear-gradient(180deg, #A0B0FF 0%, #314CF3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.custom-box {
+    background: linear-gradient(180deg, #FF714F 0%, #ED5EC1 100%);
+    border-radius: 34px;
+    width: 301px;
+    height: 234px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    margin-left: 100px;
+    /* identical to box height, or 293% */
+
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+}
+
+.custom-box2 {
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    transform: rotate(0.18deg);
+    margin: 20px;
+    height: 800px;
+    margin-top: -190px;
+}
+
+.border {
+    /* width: 235.5px; */
+    border: 2px solid #FFFFFF;
+}
+
+.trans {
+    background: linear-gradient(180deg, #000000 0%, #091B24 62.38%);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.custom-border {
+    border-right: 2px solid rgba(0, 0, 0, 0.05);
+    transform: rotate(0.18deg);
+    margin-right: 296px;
+}
+
+.custom-border-2 {
+    border-right: 2px solid rgba(255, 255, 255, 0.05);
+    transform: rotate(0.18deg);
+    margin-right: 200px;
+}
+
+.ol,
+ul,
+menu {
+    list-style: circle !important;
+}
+
+.ol,
+ul,
+li {
+    padding: 10px !important;
+    text-align: start !important;
+    margin-left: 110px !important;
+}
+
+.red-box {
+    width: 358.22px;
+    height: 358.22px;
+    left: 731.86px;
+    top: 6704.1px;
+
+    border: 30px solid #FE3067;
+    filter: drop-shadow(-19px 0px 156px #FE3067);
+    border-radius: 112px;
+    transform: rotate(46.39deg);
+}
+
+.styles_faq-row-wrapper__3vA1D {
+    padding: 15px !important;
+    background-color: transparent !important;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB {
+    color: white !important;
+}
+
+#react-faq-rowtitle-1 {
+    color: white !important;
+}
+
+#react-faq-rowtitle-2 {
+    color: white !important;
+}
+
+#react-faq-rowtitle-3 {
+    color: white !important;
+}
+
+#react-faq-rowtitle-4 {
+    color: white !important;
+}
+
+#react-faq-rowtitle-5 {
+    color: white !important;
+}
+
+#react-faq-rowtitle-6 {
+    color: white !important;
+}
+
+.faq-title {
+    display: none !important;
+}
+
+.faq-row {
+    border: 2px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 17px !important;
+    padding-left: 25px !important;
+    margin: 10px !important;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_icon-wrapper__2cftw svg {
+    fill: white !important;
+}
+
+.form-check-input {
+    float: none !important;
+    margin-left: 0px !important;
+    margin-right: 5px !important;
+}
+
+.bg-change {
+    position: absolute;
+    left: -773px;
+    top: 6300px;
+
+    background: radial-gradient(59.77% 59.77% at 50% 47.88%, #0F7173 0%, rgba(78, 41, 120, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    filter: blur(150px);
+}
+
+
+.bg-change-2 {
+    position: absolute;
+    width: 400px;
+    height: 1000px;
+    right: 10px;
+    top: 6300px;
+    background: radial-gradient(33.61% 33.61% at 40.37% 50%, #D76162 0%, rgba(72, 29, 20, 0.38) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    filter: blur(150px);
+}
+
+
+
+
+.ol,
+ul,
+li {
+    color: white !important;
+}
+
+.no-order {
+    list-style: none !important;
+}
+
+
+.no-order li {
+    padding: 5px !important;
+    text-align: start !important;
+    font-size: 12px !important;
+}
+
+.MuiFormControl-root {
+    border: 1px solid #C0BFF6 !important;
+    border-radius: 8px !important;
+}
+
+
+.loginBtn {
+    top: 25px;
+    right: 45px;
+    width: 145px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 30px;
+    padding-top: 11px;
+    padding-bottom: 39px;
+    border-radius: 33px;
+}
+
+.MuiContainer-root {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 35px;
+    background: transparent;
+}
+
+.logo2 {
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    background: transparent;
+}
+
+.pixel {
+    color: transparent;
+    width: -webkit-fill-available !important;
+    margin-left: 160px;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    height: 725px;
+}
+
+.section2Img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.borderStyle {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 280px;
+    margin-left: 45px;
+    margin-top: 0px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.begin-scroll {
+    position: absolute;
+    left: 350px;
+    top: 1355px;
+}
+
+.begin-scroll2 {
+    position: absolute;
+    left: 350px;
+    top: 2900px;
+}
+
+.bg-img {
+    width: 1440px;
+    height: 512px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.MuiTable-root {
+    background: rgba(52, 120, 246, 0.11) !important;
+    border: 1px solid rgba(230, 230, 252, 0.5) !important;
+    border-radius: 11px !important;
+}
+
+.trendingBtns {
+    border-radius: 10px;
+    border: 1px solid #D3DDEE;
+    width: 200px;
+    margin: 80px;
+    margin-bottom: -70px;
+}
+
+.imageStyling {
+    position: relative;
+    bottom: 260px;
+}
+
+.industrybtn {
+    background: rgba(7, 197, 236, 0.4) !important;
+    border-radius: 6px !important;
+    padding: 10px !important;
+    margin: 15px !important;
+    color: white !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 25px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.MuiSvgIcon-root {
+    color: white !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+}
+
+.countrybtn {
+    background: #3478F6;
+    border-radius: 42px;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.searchbar {
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background: transparent;
+    color: white !important;
+    font-size: 20px;
+    height: 53px;
+    padding: 31px;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.searchicon {
+    color: white !important;
+    display: block !important;
+    object-fit: contain !important;
+    position: relative !important;
+    left: 200px !important;
+    top: -10px !important;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: white !important;
+}
+
+.book {
+    width: 275px;
+    justify-content: start;
+    display: flex;
+}
+
+.ind {
+    border: 2px solid #FFFFFF;
+    border-radius: 42px;
+    width: 268px;
+    height: 47.29px;
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 169% */
+
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description {
+    padding: 200px;
+    padding-top: 10px;
+    margin-top: -100px;
+    height: 510px;
+}
+
+
+.bg-industry {
+    height: 100vh !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .MuiAppBar-positionStatic {
+        left: 200px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .MuiAppBar-positionStatic {
+        left: 210px !important;
+    }
+
+    .bg-img {
+        width: 900px;
+        height: 900px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .bg-des {
+        position: relative;
+        bottom: 1110px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .MuiAppBar-positionStatic {
+        left: 210px !important;
+    }
+}
+
+/* @media only screen and (min-width: 1200px) {
+    .MuiAppBar-positionStatic {
+        left: 250px !important;   
+    }
+    .bg-img {
+        width: 1050px;
+        height: 1000px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .MuiAppBar-positionStatic {
+        left: 200px !important;   
+    }
+} */
+
+.country {
+    position: relative;
+    padding: 200px;
+    bottom: 1200px;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+}
+
+.idea {
+    padding: 200px;
+    padding-top: 20px !important;
+    padding-bottom: 10px;
+}
+
+.idea-btn {
+    background: #097DA9;
+    border-radius: 4px;
+}
+
+.star {
+    position: absolute;
+    left: 160px;
+    top: 80px;
+}
+
+.star2 {
+    position: absolute;
+    left: 160px;
+    top: 400px;
+}
+
+.location-map {
+    top: 300px;
+    left: 350px;
+}
+
+.MuiPaper-rounded {
+    background-color: #055FCC !important;
+    color: white !important;
+}
+
+
+.body {
+    background: #055FCC !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .smScreen {
+        display: none !important;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .smScreenText {
+        width: min-content !important;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .custom {
+        width: inherit !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pixel {
+        margin-left: 0px !important;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-b {
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+        left: 15px !important;
+        top: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .explore {
+        top: 103px !important;
+        left: 100px !important;
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btns {
+        top: 130px !important;
+        left: -30px !important;
+        width: 500px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .begin-scroll2 {
+        position: absolute;
+        left: 200px !important;
+        top: 3285px !important;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .borderStyle {
+        height: 130px !important;
+        width: 130px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .begin-scroll {
+        position: absolute;
+        left: 193px !important;
+        top: 1573px !important;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .smbackground {
+        left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .smbackground>img {
+        height: 1000px !important;
+        width: auto !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .setHeight {
+        height: -webkit-fill-available !important;
+    }
+}
+
+
+.ideabtn {
+    background: #055FCC !important;
+    border-radius: 42px !important;
+    color: white !important;
+    padding: 15px !important;
+    width: 215px !important;
+    height: 42px !important;
+}
+
+
+.alreadyIdea {
+    background: transparent !important;
+    color: white !important;
+    border-radius: 42px !important;
+    border: 2px solid #FFFFFF !important;
+    margin-left: 20px !important;
+    padding: 10px !important;
+    width: 215px !important;
+    height: 42px !important;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+    .MuiAppBar-positionStatic {
+        background-color: white !important;
+        width: 400px !important;
+    }
+
+
+    .loginBtn {
+        width: 100px !important;
+        top: 25px !important;
+        right: 80px !important;
+
+        border: 2px solid rgb(255, 255, 255) !important;
+        height: 30px !important;
+        padding-top: 11px;
+        padding-bottom: 39px !important;
+        border-radius: 33px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 770px) {
+    .MuiAppBar-positionStatic {
+
+        width: 350px !important;
+    }
+
+
+}
+
+
+.explore-div {
+    top: 300px;
+    left: 80px
+}
+
+.industireslist {
+    position: relative;
+    bottom: 425px;
+    height: 60vh;
+}
+
+.bgindustry2 {
+    height: 70vh;
+    width: 86vw;
+}
+
+.bgindustry2div {
+    top: 120px;
+    left: 80px;
+
+}
+
+.indviewdetails {
+    margin-left: -70px;
+}
+
+.bgindiustry2-industryview {
+    height: 70vh;
+    width: 86vw;
+}
+
+
+
+.industry-view-scrolldiv {
+    position: relative;
+    bottom: 450px;
+    height: 70vh
+}
+
+.bgindustry2stlistdiv {
+    top: 120px;
+    left: 80px;
+
+}
+
+.bgindustry2stlist {
+    height: 70vh;
+    width: 86vw;
+}
+
+.startup-div-scrolldiv {
+    position: relative;
+    bottom: 450px;
+    height: 70vh
+}
+
+.descdiv {
+    top: 120px;
+    left: 80px;
+}
+
+.descbg2img {
+    height: 70vh;
+    width: 86vw
+}
+
+.desc-overflow-div {
+    position: relative;
+    bottom: 450px;
+    height: 60vh
+}
+
+.desc-details {
+    margin-left: 70px
+}
+
+.title-text {
+    margin-left: 30px
+}
+
+.idea-text {
+    margin-left: 30px
+}
+
+.desc-component {
+    margin-left: -150px
+}
+
+.ideascrolldiv {
+    height: 60vh;
+    top: 430px
+}
+
+.img-div {
+    top: 120px;
+    left: 80px;
+}
+
+.idea-div {
+    top: 120px !important;
+    left: 80px !important
+}
+
+.idea-bg-img {
+    height: 70vh;
+    width: 86vw;
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .explore-div {
+        top: 100px;
+        left: 80px;
+        font-size: 40px;
+    }
+
+    .industireslist {
+        position: relative;
+        bottom: 380px;
+        height: 50vh;
+        width: 80vw;
+        left: 100px
+    }
+
+    .bgindustry2 {
+        height: 50vh;
+        width: 86vw;
+    }
+
+    .bgindustry2div {
+        top: 120px;
+        left: 80px;
+
+    }
+
+    .industrybtn {
+        background: rgba(7, 197, 236, 0.4) !important;
+        border-radius: 6px !important;
+        padding: 10px !important;
+        margin: 15px !important;
+        color: white !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 10px !important;
+        line-height: 25px !important;
+        width: auto !important;
+        height: auto !important;
+    }
+
+
+    /* indusyry view page */
+    .book {
+        height: 200px;
+        width: 200px;
+        margin-left: 80px;
+        margin-top: 80px;
+    }
+
+    .img-div {
+        top: 120px;
+        left: 50px;
+    }
+
+    .indviewdetails {
+        margin-left: 10px
+    }
+
+    .bgindiustry2-industryview {
+        height: 75vh;
+        width: 86vw;
+    }
+
+    .industry-view-scrolldiv {
+        position: relative;
+        bottom: 450px;
+        height: 70vh
+    }
+
+
+    .bgindustry2stlistdiv {
+        top: 120px;
+        left: 45px;
+
+
+    }
+
+    .startup-div-scrolldiv {
+        position: relative;
+        bottom: 500px;
+        height: 60vh;
+        padding: 100px
+    }
+
+    .descdiv {
+        top: 120px;
+        left: 30px;
+    }
+
+    .descbg2img {
+        height: 70vh;
+        width: 90vw;
+    }
+
+
+
+    .desc-details {
+        margin-left: 100px;
+    }
+
+    .desc-overflow-div {
+        position: relative;
+        bottom: 450px;
+        height: 60vh;
+        right: 70px;
+        width: fit-content
+    }
+
+    .location-map {
+        top: 350px;
+        left: 140px;
+    }
+
+    .loginBtn-location {
+        width: 100px !important;
+        top: 25px !important;
+        right: 50px !important;
+
+        border: 2px solid rgb(255, 255, 255) !important;
+        height: 30px !important;
+        padding-top: 11px;
+        padding-bottom: 39px !important;
+        border-radius: 33px !important;
+    }
+
+    .ideascrolldiv {
+        position: absolute;
+        height: 60vh;
+        top: 130px
+    }
+
+
+}
+
+@media only screen and (min-width:1024px) and (max-width:1430px) {
+
+    .industireslist {
+        position: relative;
+        bottom: 580px;
+        height: 80vh;
+    }
+
+    .bgindustry2 {
+        height: 70vh;
+        width: 86vw;
+    }
+
+    .bgindustry2div {
+        top: 120px;
+        left: 80px;
+
+    }
+
+    .book {
+        height: 300px;
+        padding-left: 10px;
+    }
+
+    .indviewdetails {
+        margin-left: 40px
+    }
+
+    .bgindiustry2-industryview {
+        height: 75vh;
+        width: 86vw;
+    }
+
+    .bgindustry2stlistdiv {
+        top: 120px;
+        left: 80px;
+        padding-left: 10px;
+
+    }
+
+    .startup-div-scrolldiv {
+        position: relative;
+        bottom: 500px;
+        height: 60vh;
+        padding: 100px
+    }
+
+    .location-map {
+        top: 350px;
+        left: 300px;
+    }
+
+    .loginBtn-location {
+        width: 100px !important;
+        top: 25px !important;
+        right: 50px !important;
+
+        border: 2px solid rgb(255, 255, 255) !important;
+        height: 30px !important;
+        padding-top: 11px;
+        padding-bottom: 39px !important;
+        border-radius: 33px !important;
+    }
+
+    .ideascrolldiv {
+        position: absolute;
+        height: 60vh;
+        top: 130px
+    }
+
+}
+
+
+
+@media only screen and (min-width:1431px) and (max-width:2560px) {
+
+    .industireslist {
+        position: relative;
+        bottom: 700px;
+        height: 80vh;
+    }
+
+    .bgindustry2 {
+        height: 95vh;
+        width: 86vw;
+    }
+
+    .bgindustry2div {
+        top: 120px;
+        left: 80px;
+
+    }
+
+    .bgindustry2stlistdiv {
+        top: 120px;
+        left: 80px;
+        padding-left: 10px;
+
+    }
+
+    .startup-div-scrolldiv {
+        position: relative;
+        bottom: 450px;
+        height: 60vh;
+        padding: 100px
+    }
+
+    .location-map {
+        top: 400px;
+        left: 500px;
+    }
+
+    .loginBtn-location {
+        width: 100px !important;
+        top: 25px !important;
+        right: 50px !important;
+
+        border: 2px solid rgb(255, 255, 255) !important;
+        height: 30px !important;
+        padding-top: 11px;
+        padding-bottom: 39px !important;
+        border-radius: 33px !important;
+    }
+
+    .ideascrolldiv {
+        position: absolute;
+        height: 60vh;
+        top: 130px
+    }
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+
+
+    .bgindustry2stlistdiv {
+        top: 120px;
+        left: 80px;
+
+
+    }
+
+    .startup-div-scrolldiv {
+        position: relative;
+        bottom: 500px;
+        height: 60vh;
+        padding: 100px
+    }
+
+    .bgindustry2stlist {
+        height: 60vh;
+        width: 60vw;
+        margin-right: 150px;
+
+    }
+
+    .industrybtn {
+        background: rgba(7, 197, 236, 0.4) !important;
+        border-radius: 6px !important;
+        padding: 10px !important;
+        margin: 15px !important;
+        color: white !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 10px !important;
+        line-height: 25px !important;
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .loginBtn {
+        width: 100px !important;
+        top: 25px !important;
+        right: 10px !important;
+        padding: 5px;
+        border: 2px solid rgb(255, 255, 255) !important;
+        height: 30px !important;
+        padding-top: 11px;
+        padding-bottom: 39px !important;
+        border-radius: 33px !important;
+
+    }
+
+    .img-div {
+        top: 120px;
+        left: 20px;
+    }
+
+    .book-div {
+        display: block !important;
+    }
+
+    .book {
+        height: 200px;
+        margin-left: 100px;
+    }
+
+    .indviewdetails {
+        margin-left: -10px;
+        display: block;
+        margin-top: 240px;
+    }
+
+    .industry-view-scrolldiv {
+
+        position: relative;
+        bottom: 450px;
+        height: 60vh
+    }
+
+
+    .descdiv {
+        top: 120px;
+        left: 30px;
+    }
+
+    .descbg2img {
+        height: 70vh;
+        width: 90vw;
+    }
+
+
+
+    .description {
+        display: block;
+        margin-left: 2px;
+
+        padding-left: 150px
+    }
+
+    .desc-overflow-div {
+        position: relative;
+        bottom: 450px;
+        height: 60vh;
+        right: 70px;
+
+    }
+
+
+    .title-text {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 0px;
+        margin: 0px;
+
+    }
+
+    .idea-text {
+        font-size: 10px;
+        margin-left: 0px;
+        margin-bottom: 2px
+    }
+
+    .desc-details {
+        width: auto;
+
+    }
+
+    .desc-component {
+        margin-left: -100px
+    }
+
+    .descpages {
+
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    .location-map {
+        top: 350px;
+        left: 0px;
+    }
+
+    .searchbar {
+        width: 240px;
+    }
+
+    .loginBtn-location {
+        width: 100px !important;
+        top: 25px !important;
+        right: 10px !important;
+
+        border: 2px solid rgb(255, 255, 255) !important;
+        height: 30px !important;
+        padding-top: 11px;
+        padding-bottom: 39px !important;
+        border-radius: 33px !important;
+    }
+
+    .explore-div {
+        top: 220px !important;
+        left: 10px !important;
+        width: 100vw !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 15px !important;
+
+    }
+
+    .index-video {
+        height: 100vh !important;
+
+    }
+
+    .video-img {
+        height: 100vh !important;
+    }
+
+    .index-p {
+        font-size: 10px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .ideabtn {
+
+
+        padding: 15px !important;
+        width: 150px !important;
+        height: 42px !important;
+    }
+
+    .alreadyIdea {
+
+        margin-left: 20px !important;
+        padding: 10px !important;
+        width: 150px !important;
+        height: 42px !important;
+    }
+
+    .idea-div {
+        top: 120px !important;
+        left: 20px !important
+    }
+
+    .idea-bg-img {
+        height: 70vh;
+        width: 86vw;
+    }
+
+    .ideascrolldiv {
+        position:absolute !important;
+        height: 60vh;
+        margin-left: 0px !important;
+        padding-left: 0px !important;;
+        top: 150px !important;
+    }
+    .idea {
+        padding-left: 40px !important;
+        padding-top: 20px !important;
+        padding-bottom: 10px;
+    }
+
+}
